@@ -1,0 +1,52 @@
+body {
+    background-color: #02c39a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+    
+}
+
+.pizza {
+    border: 4px solid chartreuse;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    width: 17em;
+    /*display: inline-block;*/
+       
+}
+.medium_pizza {
+    background-color: #ff8800;
+    
+    //padding creates space between border and wording
+}
+.Large_pizza {
+    background-color: #ff9500;
+    
+    
+}
+.Small_pizza {
+    background-color: #ffa200;
+    
+}
+.contact_details {
+    background-color: #fcbf49 ;
+    
+}
+
+@media (min-width: 760px) {
+    body {
+        background-color: red;
+    }
+    //this style or colour is applied as soon as the screen is wider than 760 px//
+}
+
+@media (min-width: 960px) {
+    body {
+        background-color: white;
+    }
+.pizzas {
+        display: flex;
+    }
+}
+//this style or colour is applied as soon as the screen is wider than 960 px//
